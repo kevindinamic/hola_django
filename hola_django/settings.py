@@ -30,3 +30,4 @@ TEMPLATES = [
 WSGI_APPLICATION = "hola_django.wsgi.application"
 
 STATIC_URL = "/static/"
+ALLOWED_HOSTS = ['*']
